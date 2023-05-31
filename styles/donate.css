@@ -8,6 +8,7 @@
     background-image: url('../images/donation13.jpg');
     background-size: cover;
     height: 500px;
+    box-shadow: 50px 6px 0px rgba(0, 0, 0, 0.06);
 
 }
 .banner{
@@ -34,7 +35,9 @@
     text-align: center;
 }
 .d-discription{
-    color: gray;
+    color:#6c6767;
+    font-size: 16px;
+    
 }
 .l-donate{
     display: flex;
@@ -50,4 +53,63 @@
     background-color:whitesmoke;
     border: none;
     color: grey;
+}
+.snd-box{
+    border: 2px solid rgb(225, 53, 82);
+    color: rgb(202, 29, 58);;
+    background-color:rgba(242, 196, 203, 0.526);
+}
+.next-donate{
+    color: #6c6767;
+    font-size: 16px;
+}
+/* Work on Third panel */
+.donate-title{
+    padding-top: 80px;
+}
+.donate-discription{
+    font-size: 16px;
+    color: #6c6767;
+}
+section{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+/* for make a box */
+.donate-conteinar-one{
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: justify;
+    background-color: rgb(223, 242, 242);
+    border: none;
+
+
+}
+.donate-conteinar-two{
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 5px;
+    width:400px;
+    text-align: justify;
+    background-color: rgb(246, 221, 225);
+    border: none;
+
+
+}
+.donate-conteinar-three{
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: justify;
+    background-color: beige;
+    border: none;
+
+
+}
+.c-discription{
+    color: #6c6767;
 }
