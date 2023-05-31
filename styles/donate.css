@@ -1,0 +1,29 @@
+
+*{
+    margin: o;
+    font-family:  'Open Sans', sans-serif;
+  }
+  /* Banner pannel */
+  .header{
+    background-image: url('../images/donation13.jpg');
+    background-size: cover;
+    height: 500px;
+
+}
+.banner{
+    color: rgb(240, 248, 255);
+    text-align: center;
+    padding-top: 100px;
+}
+.btn-primary{
+    background-color: hwb(340 2% 14%);
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
