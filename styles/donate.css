@@ -27,3 +27,27 @@
     font-size: 16px;
     color: white;
 }
+/* work on 2nd pannel */
+
+.donate{
+    margin-top: 100px;
+    text-align: center;
+}
+.d-discription{
+    color: gray;
+}
+.l-donate{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    list-style: none;
+
+}
+.text-box{
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    border: none;
+    color: grey;
+}
