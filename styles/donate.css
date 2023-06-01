@@ -56,7 +56,7 @@
 }
 .snd-box{
     border: 2px solid rgb(225, 53, 82);
-    color: rgb(202, 29, 58);;
+    color: rgb(202, 29, 58);
     background-color:rgba(242, 196, 203, 0.526);
 }
 .next-donate{
@@ -75,6 +75,8 @@ section{
     display: flex;
     margin-top: 30px;
     gap: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 /* for make a box */
 .donate-conteinar-one{
@@ -112,4 +114,107 @@ section{
 }
 .c-discription{
     color: #6c6767;
+}
+/* their life */
+.live{
+    display: flex;
+}
+.live-one{
+    padding: 150px;
+    text-align: justify;
+    margin-right: 50px;
+
+}
+
+.live-img{
+    height: 300px;
+    width: 300px;
+    padding-top: 100px;
+    margin-right: 100px;
+}
+.live-dis{
+    color: #6c6767;
+}
+/* they need */
+.need-img{
+    height: 300px;
+    width: 300px;
+    padding-top: 100px;
+    margin-right: 100px;
+}
+.need{
+    text-align: justify;
+    padding: 100px;
+
+}
+.update{
+    justify-content: center;
+    
+}
+.p-update{
+    color: #6c6767;
+}
+
+.email{
+    display: flex;
+    border: 2px solid;
+    padding: 50px;
+    border-radius: 5px;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    background-color: beige;
+    border: none;
+    margin-top: 50px;
+    
+}
+.box-one{
+    
+    list-style: none;
+    padding: 25px;
+    width: 400px;
+    height: 0px;
+    margin-top: 10px;
+    background-color: #ccc2c2;
+    border: none;
+    color: white;
+    text-align: left;
+
+
+}
+.box-two{
+    list-style: none;
+    padding: 25px;
+    width: 200px;
+    height: 0px;
+    margin-top: 10px;
+    background-color: rgb(235, 82, 108);;
+    color: white;
+    text-align: center;
+    
+}
+.end{
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 5px;
+    display: list-item;
+    margin-top: 80px;
+    background-color: black;
+    
+    
+
+}
+
+.h-end{
+    color: brown;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+}
+.i-end{
+    
+    color: #D9DBE1; 
 }
